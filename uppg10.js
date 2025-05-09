@@ -13,7 +13,7 @@ function uppg10() {
   const other = [];
 
   // loopa igenom numbers och placera talen i respektive array
-  numbers.map((num) => {
+  numbers.forEach((num) => {
     if (num > 10 && num % 2 === 0) {
       // bigEven ska innehålla tal större än 10 och jämnt delbara med 2
       bigEven.push(num);
